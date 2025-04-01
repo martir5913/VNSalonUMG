@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
-import OfertasPromociones from "./OfertasPromociones"; // Importa la nueva vista
+import OfertasPromociones from "./OfertasPromociones"; // Importa la nueva vista de Ofertas y Promociones
 
 function App() {
   return (
