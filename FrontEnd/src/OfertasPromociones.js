@@ -1,5 +1,5 @@
 import React from "react";
-import "./OfertasPromociones.css"; // Importa el archivo de estilos específico para esta vista
+import "./css/OfertasPromociones.css"; // Corrected the import path
 
 function OfertasPromociones() {
   return (
