@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+/* Encabezado */
+.App-header {
+  background-color: #271a58;
+  display: flex;
+  flex-direction: column; /* Coloca los elementos verticalmente */
+  align-items: center;
+  justify-content: center; /* Centra verticalmente */
+  min-height: 15vh;
+  padding: 1rem;
+  color: #f8f1f1;
+  text-align: center;
+}
+
+.App-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.App-header .welcome-message {
+  margin-top: 0;
+  font-size: 1.1em;
+  color: #777;
+}
+
+/* Contenedor principal */
+.content-wrapper {
+  display: flex;
+  justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+  align-items: flex-start;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.main-image {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Panel lateral izquierdo */
+.sidebar.left-sidebar {
+  width: 250px;
+  background-color: #564cb1;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  height: 50vh; /* La mitad de la pantalla */
+  position: sticky;
+  top: 20px;
+  margin-left: 0; /* Asegura que está pegado al borde izquierdo */
+}
+
+/* Botones dentro del sidebar */
+.sidebar-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2em;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-button:hover {
+  background-color: #d0d0d0;
+}
+
+/* Contenedor principal del formulario */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; /* Centrar contenido */
+  align-items: center;
+}
+
+/* Estilos para centrar el formulario */
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Centrar los campos de nombre y correo */
+.form-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+
+/* Estilos de los inputs */
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #777;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos del botón de formulario */
+.form-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
